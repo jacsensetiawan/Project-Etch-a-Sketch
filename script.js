@@ -2,6 +2,6 @@ const container = document.querySelector("#container");
 
 for (let i = 0; i < 256; i++) {
 const newDiv = document.createElement("div");
-container.classList.add("grid-square");
+newDiv.classList.add("grid-square");
 container.appendChild(newDiv);
 }
