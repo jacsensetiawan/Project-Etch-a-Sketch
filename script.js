@@ -1,5 +1,3 @@
-const container = document.querySelector("#container")
-
-for (let i = 0; i > 256; i++) {
-
+for (let i = 0; i < 256; i++) {
+const container = document.querySelector("#container");
 }
